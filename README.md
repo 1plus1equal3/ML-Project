@@ -43,17 +43,17 @@ Please see the below installing requirement without installing all the library t
 Since the amount of library are very large and require a lot of time to set up, we have provide a way for you to run these colab implementation notebook without installing any library or models resourse. 
 Just follow these step and you can start running rightaway:
 
-    **Step 1:** Add the share drive link to your local drive:
+**Step 1:** Add the share drive link to your local drive:
     When open the colab demo file, you may seen a cell (2nd cell at the begining) that contains the drive links.
     ![Example](demo.png)
     These links are links contained the necessary libs and models file that you need to run the demo file. 
     
-    **Step 2:** Add the shortcut to your local drive. All you need to do is **Open these links and add a shortcut to your local drive**
+**Step 2:** Add the shortcut to your local drive. All you need to do is **Open these links and add a shortcut to your local drive**
     ![Open the link choose add a shortcut (you may also find it inside the *Share with me* of your drive)](short_cut.png)
     Then **MAKE SURE you add it into you MyDrive folder**
     ![Add to MyDrive folder](add_to_mydrive.png)
     
-    **Step 3:** Check if they are added successfully
+**Step 3:** Check if they are added successfully
     When those folder shortcut are successfully added to your MyDrive, in your MyDrive folder should contains these 2 folders as shown here:
     ![There should be 2 folders name *virtual_env* and *demo* inside your MyDrive folder]{sucess.png}
     Now you can run the notebook without installing any libs
