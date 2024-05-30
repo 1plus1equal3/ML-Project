@@ -55,7 +55,7 @@ Just follow these step and you can start running rightaway:
     
 **Step 3:** Check if they are added successfully
     When those folder shortcut are successfully added to your MyDrive, in your MyDrive folder should contains these 2 folders as shown here:
-    ![There should be 2 folders name *virtual_env* and *demo* inside your MyDrive folder]{sucess.png}
+    ![There should be 2 folders name *virtual_env* and *demo* inside your MyDrive folder](sucess.png)
     Now you can run the notebook without installing any libs
 
 > [!WARNING]
