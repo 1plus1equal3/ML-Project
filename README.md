@@ -20,13 +20,13 @@ In this project, we also contributed a new synthetic dataset for SISR problem. T
     - bicubic-4x contains low-resolution images created using bicubic interpolation (Most common degradation method)
     - bicubic_blur-4x contains low-resolution images created using bicubic interpolation with the addition of a blur kernel to reduce the sharpness of images
     - bicubic_noise-4x contains low-resolution images created using bicubic interpolation with the addition of white Gaussian noise act as a more challenging dataset for training or testing
-You can access the dataset in [here!]{https://drive.google.com/drive/folders/1F8yqKz7XTFcH4q_6TfaypkTqf05RsyNE?usp=sharing}. More details about this dataset can be found in the report.
+You can access the dataset in https://drive.google.com/drive/folders/1F8yqKz7XTFcH4q_6TfaypkTqf05RsyNE?usp=sharing. More details about this dataset can be found in the report.
 
 ## Demo
 For the demo, you will uploaded one or many images for experiment, these serve as the high-resolution images(Ground truth). Each image is then be resized be a scale of 4 (smaller than the original uploaded one by 4 times), which serve as the low-resolution image.
 These resized images will then go through the pipeline of the methods you select and output the super-resolution of scale 4. After that, PSNR and SSIM are calculated for each methods for comparison.
 
-You can access the demo file via this [link!]{https://colab.research.google.com/drive/1pwxR-zbi_ziiQDuabA9_YnUCJ7Uoxl7-?usp=sharing}.
+You can access the demo file via this https://colab.research.google.com/drive/1pwxR-zbi_ziiQDuabA9_YnUCJ7Uoxl7-?usp=sharing.
 Please see the below installing requirement without installing all the library to be able to run the demo file. 
 - In the demo file, you **ONLY** need to run the first 3 cells and the **Demo** section, the **Preparation** section it only for testing different images for uploaded drive images.
 ![Only run the first 3 cells and the *Demo* section](asserts/run_demo.png)
