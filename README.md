@@ -69,6 +69,7 @@ We analyze the problem of Single Image Super-Resolution (SISR) with 3 different 
 - 1. Classical approach: Image processing
 - 2. Deep Learning approach: CNNs
 - 3. Modern approach: Generative model
+     
 **All details analysis and training implementation can be found in the report!!!**
 
 > [!IMPORTANT]
@@ -82,6 +83,7 @@ We analyze the problem of Single Image Super-Resolution (SISR) with 3 different 
     1. Nearest Neighbor
     2. Bilinear interpolation
     3. Bicubic interpolation
+       
 *(Extra: Lacnzo have also been experiment but we have not fully understand the idea of it so its not include in the report, however, you can still play with it in the colab file :grinning:)*
 
 ### Deep learning methods - CNNs
@@ -93,9 +95,11 @@ We analyze the problem of Single Image Super-Resolution (SISR) with 3 different 
 
 
 ### Generative models
-- Implementation: Since training a generative model would need lots of computation resources and a good enough GPU, which its impossible for us to access(*Colab and Kaggle GPU doesn't satisfied the training requirement*) so we use the pretrained models to analyze and evaluate. We have modify the inference code for personal usage and implementation. 
+- Implementation: Since training a generative model would need lots of computation resources and a good enough GPU, which its impossible for us to access(*Colab and Kaggle GPU doesn't satisfied the training requirement*) so we use the pretrained models to analyze and evaluate. We have modify the inference code for personal usage and implementation.
+  
 > [!NOTE]
 > We do not include the source code for these class of model since they are very large (as well as their saved pre-trained weights) and hard for us to explain the pipeline to inference with these models so we have included all inference scripts inside the demo colab file(See below).
+
 - 3 models were experimented and analyze:
     1. dSRVAE
     2. SRGAN
