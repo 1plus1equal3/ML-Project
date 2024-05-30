@@ -29,14 +29,14 @@ These resized images will then go through the pipeline of the methods you select
 You can access the demo file via this [link!]{https://colab.research.google.com/drive/1pwxR-zbi_ziiQDuabA9_YnUCJ7Uoxl7-?usp=sharing}.
 Please see the below installing requirement without installing all the library to be able to run the demo file. 
 - In the demo file, you **ONLY** need to run the first 3 cells and the **Demo** section, the **Preparation** section it only for testing different images for uploaded drive images.
-![Only run the first 3 cells and the *Demo* section](run_demo.png)
+![Only run the first 3 cells and the *Demo* section](asserts/run_demo.png)
 - Inside the demo section, first you will need to run the *Run all preparation function* cell to initialize all need models (It would normally take about 4~5 minutes, maybe longer if your internet connection is bad)
 - Then run the *Upload experiment images* to upload images for testing. You can choose as many images as you want. After click on the upload button, all chosen images will be uploaded to drive and ready for next step
-![After all images are uploaded, they along with their shape attributes will be displayed](upload_image.png)
+![After all images are uploaded, they along with their shape attributes will be displayed](asserts/upload_image.png)
 - Now you will need to select the methods you want to use (Note that *ldm* and *ResShift* are the 2 diffusion models that are not available for the current time, so please do not choose them!). After you select the need methods, click the run button of this cell.
-![Select the methods then run the cell](select.png)
+![Select the methods then run the cell](asserts/select.png)
 - Finnaly, run the last 2 cells and the super-resolution images will be generated as well as the metric evaluation at the end of the output cell.
-![The output should look like this!](output.png)
+![The output should look like this!](asserts/output.png)
 
 
 ## Running colab demo without the need of installing library
@@ -45,17 +45,17 @@ Just follow these step and you can start running rightaway:
 
 **Step 1:** Add the share drive link to your local drive:
     When open the colab demo file, you may seen a cell (2nd cell at the begining) that contains the drive links.
-    ![Example](demo.png)
+    ![Example](asserts/demo.png)
     These links are links contained the necessary libs and models file that you need to run the demo file. 
     
 **Step 2:** Add the shortcut to your local drive. All you need to do is **Open these links and add a shortcut to your local drive**
-    ![Open the link choose add a shortcut (you may also find it inside the *Share with me* of your drive)](short_cut.png)
+    ![Open the link choose add a shortcut (you may also find it inside the *Share with me* of your drive)](asserts/short_cut.png)
     Then **MAKE SURE you add it into you MyDrive folder**
-    ![Add to MyDrive folder](add_to_mydrive.png)
+    ![Add to MyDrive folder](asserts/add_to_mydrive.png)
     
 **Step 3:** Check if they are added successfully
     When those folder shortcut are successfully added to your MyDrive, in your MyDrive folder should contains these 2 folders as shown here:
-    ![There should be 2 folders name *virtual_env* and *demo* inside your MyDrive folder](sucess.png)
+    ![There should be 2 folders name *virtual_env* and *demo* inside your MyDrive folder](asserts/sucess.png)
     Now you can run the notebook without installing any libs
 
 > [!WARNING]
