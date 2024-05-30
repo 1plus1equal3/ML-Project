@@ -84,9 +84,9 @@ We analyze the problem of Single Image Super-Resolution (SISR) with 3 different 
 ### Deep learning methods - CNNs
 - Implementation: Please see in *Source code/CNNs*
 - 3 models were experimented and analyze:
-    1. SRCNN [colab]{} (source code can be accessed in *Source code/CNNs/SRCNN*)
-    2. ESPCN [colab]{} (source code can be accessed in *Source code/CNNs/ESPCN*)
-    3. VDSR [kaggle]{https://www.kaggle.com/code/oneplusoneisthree/vdsr-v2} (source code can be accessed in *Source code/CNNs/VDSR*)
+    1. SRCNN [colab]() (source code can be accessed in *Source code/CNNs/SRCNN*)
+    2. ESPCN [colab]() (source code can be accessed in *Source code/CNNs/ESPCN*)
+    3. VDSR [kaggle](https://www.kaggle.com/code/oneplusoneisthree/vdsr-v2) (source code can be accessed in *Source code/CNNs/VDSR*)
 
 
 ### Generative models
