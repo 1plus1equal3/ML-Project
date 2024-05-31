@@ -68,6 +68,10 @@ Just follow these step and you can start running rightaway:
 ![The output should look like this!](asserts/output.png)
 
 ## Source code
+**If you use colab or kaggle notebook to re-run the demo or training, then you do not need to install any libs**
+
+**If you want to run local, please see the requirement for each approach inside their corresponding folder! For example, to re-run the VDSR training phase on your local computer, please install all the necessary libs in *Source code/CNNs/VDSR*.**
+
 We analyze the problem of Single Image Super-Resolution (SISR) with 3 different approaches:
 - 1. Classical approach: Image processing
 - 2. Deep Learning approach: CNNs
