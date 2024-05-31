@@ -8,6 +8,8 @@
 | 20210466   | Hoàng Văn Khang  |
 | 20215254   | Bùi Đức Việt     |
 
+**Github repository:** [Single Image Super-Resolution](https://github.com/1plus1equal3/ML-Project)
+
 ## Report and slides
 Please see inside this given folder:
 - **Powerpoint slide:** Presentation Slide/presentation.pptx
