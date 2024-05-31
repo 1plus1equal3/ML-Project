@@ -59,6 +59,7 @@ Just follow these step and you can start running rightaway:
 - In the demo file, you **ONLY** need to run the first 3 cells and the **Demo** section, the **Preparation** section it only for testing different images for uploaded drive images.
 ![Only run the first 3 cells and the *Demo* section](asserts/run_demo.png)
 - Inside the demo section, first you will need to run the *Run all preparation function* cell to initialize all need models (It would normally take about 4~5 minutes, maybe longer if your internet connection is bad)
+![Run the *Run all preparation function* cell inside the demo](asserts/preparation.png)
 - Then run the *Upload experiment images* to upload images for testing. You can choose as many images as you want. After click on the upload button, all chosen images will be uploaded to drive and ready for next step
 ![After all images are uploaded, they along with their shape attributes will be displayed](asserts/upload_image.png)
 - Now you will need to select the methods you want to use (Note that *ldm* and *ResShift* are the 2 diffusion models that are not available for the current time, so please do not choose them!). After you select the need methods, click the run button of this cell.
