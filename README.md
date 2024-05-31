@@ -30,7 +30,7 @@ These resized images will then go through the pipeline of the methods you select
 
 You can access the demo file via this https://colab.research.google.com/drive/1pwxR-zbi_ziiQDuabA9_YnUCJ7Uoxl7-?usp=sharing.
 
-**Please see the below installing requirement without installing all the library to be able to run the demo file. **
+**Please see the below installing requirement without installing all the library to be able to run the demo file.**
 
 ### Running colab demo without the need of installing library
 Since the amount of library are very large and require a lot of time to set up, we have provide a way for you to run these colab implementation notebook without installing any library or models resourse. 
