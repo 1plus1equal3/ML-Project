@@ -10,8 +10,8 @@
 
 ## Report and slides
 Please see inside this given folder:
-- **Powerpoint slide:** presentation.pptx
-- **Report(pdf):** Single_Image_Super_Resolution.pdf
+- **Powerpoint slide:** Presentation Slide/presentation.pptx
+- **Report(pdf):** Report/Single_Image_Super_Resolution.pdf
 
 ## Contributed dataset
 In this project, we also contributed a new synthetic dataset for SISR problem. The dataset contains 2 folders:
@@ -66,6 +66,10 @@ Just follow these step and you can start running rightaway:
 ![Select the methods then run the cell](asserts/select.png)
 - Finnaly, run the last 2 cells and the super-resolution images will be generated as well as the metric evaluation at the end of the output cell.
 ![The output should look like this!](asserts/output.png)
+
+
+> [!IMPORTANT]
+> **If you have error when uploaded images (Possibly an error about *read only file*, just restart the colab session and re-run all the cell as instructions above. If you have any trouble running the demo, please contact us via teams or this email dontunderstandyou12345@gmail.com)**
 
 ## Source code
 **If you use colab or kaggle notebook to re-run the demo or training, then you do not need to install any libs**
