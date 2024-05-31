@@ -55,7 +55,7 @@ Just follow these step and you can start running rightaway:
     Now you can run the notebook without installing any libs
 
 > [!WARNING]
-> You could download those 2 folders to your local machine to run, however, we **DO NOT SUGGEST** you to do so, as both of them are over 8Gb of data (If you install it locally, please add all libs in *virtual_env* to your local python interpreter).
+> You could download those 2 folders to your local machine to run, however, we **DO NOT SUGGEST** you to do so, as both of them are over 8Gb of data (If you install it locally, please add all libs in *virtual_env* to your local python environment).
 
 ### Start running demo 
 - In the demo file, you **ONLY** need to run the first 3 cells and the **Demo** section, the **Preparation** section it only for testing different images for uploaded drive images.
@@ -117,6 +117,8 @@ We analyze the problem of Single Image Super-Resolution (SISR) with 3 different 
     1. dSRVAE
     2. SRGAN
     3. Real-ESRGAN
+
+*(Maybe: Latent Diffusion model and ResShift?! :grinning:)*
 
 
 
