@@ -101,7 +101,7 @@ We analyze the problem of Single Image Super-Resolution (SISR) with 3 different 
 - Implementation: Since training a generative model would need lots of computation resources and a good enough GPU, which its impossible for us to access(*Colab and Kaggle GPU doesn't satisfied the training requirement*) so we use the pretrained models to analyze and evaluate. We have modify the inference code for personal usage and implementation.
   
 > [!NOTE]
-> We do not include the source code for these class of model since they are very large (as well as their saved pre-trained weights) and hard for us to explain the pipeline to inference with these models so we have included all inference scripts inside the demo colab file(See below).
+> We do not include the source code for these class of model since they are very large (as well as their saved pre-trained weights) and hard for us to explain the pipeline to inference with these models so we have included all inference scripts inside the demo colab file(See above).
 
 - 3 models were experimented and analyze:
     1. dSRVAE
